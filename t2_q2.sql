@@ -1,0 +1,3 @@
+SELECT *
+FROM public."DTP"
+WHERE date = CURRENT_DATE - 1;

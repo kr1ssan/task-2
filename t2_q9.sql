@@ -1,0 +1,3 @@
+SELECT *
+FROM public."Owner" O
+WHERE O.surname LIKE '%-%' AND EXTRACT(YEAR FROM date) NOT IN (1970, 1971, 1973, 1986, 1989) AND middle_name NOTNULL
